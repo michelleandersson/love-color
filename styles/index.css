@@ -1,13 +1,12 @@
 body {
-    font-family: 'Roboto', ;
+    font-family: 'Roboto';
 }
 
 .navigation {
     width: 100%; 
-    
     display: inline-flex;
     justify-content: flex-start;
-    box-shadow: 0px 5px 10px gray;
+    box-shadow: 0px 5px 10px black;
 }
 
 .navigation__globe-img {
@@ -70,5 +69,48 @@ body {
 .green>a:hover {
     background-color: green;
     color: black;
+}
+
+.main {
+    width: 100%;
+    height: 643px;
+    background: linear-gradient(#034078, #2F9EBC, #A0EAFF);
+    display: flex;
+    justify-content: center;
+}
+
+.main__box {
+    margin-top: 91px;
+    text-align: center;
+}
+
+.main__box__title {
+    font-size: 64px;
+    font-weight: 400;
+    color: white;
+}
+
+.heart {
+    font-size: 42px;
+    margin-left: 17px;
+    margin-right: 17px;
+}
+
+.main__box__text {
+    width: 466px;
+    font-size: 20px;
+    font-weight: 500;
+    margin-top: 37px;
+    color: #F8F8F8;
+}
+
+.main__box__button {
+    width: 186px;
+    height: 39px;
+    border-radius: 20px;
+    border: none;
+    background-color: #878787;
+    color: #F8F8F8;
+    box-shadow: 0px 5px 10px rgba(0, 0, 0, 0.582);
 }
 
